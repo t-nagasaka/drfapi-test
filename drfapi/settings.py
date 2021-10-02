@@ -37,7 +37,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'rest_framework',
     'rest_framework.authtoken',
-    'api.apps.ApiConfig',
+    'api.apps.ApiConfig'
 ]
 
 ROOT_URLCONF = 'drfapi.urls'
